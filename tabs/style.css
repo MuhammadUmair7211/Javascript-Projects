@@ -1,0 +1,65 @@
+* {
+	margin: 0px;
+}
+body {
+	min-height: 100vh;
+	background-color: #f1f5f8;
+}
+.container {
+	max-width: 600px;
+	background-color: #fff;
+}
+.heading {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.history-heading {
+	flex: 1;
+	text-align: center;
+	cursor: pointer;
+	padding: 0.8rem 2rem;
+	background-color: #dae2ec;
+	border: 1px solid #c4c4c4;
+	transition: all 0.3s ease-in-out;
+}
+.history.select {
+	background-color: white;
+}
+.vision.select {
+	background-color: white;
+}
+.goals.select {
+	background-color: white;
+}
+.history-heading:hover {
+	background-color: #f1f5f8;
+	color: rgba(136, 81, 36, 0.884);
+}
+.history-heading p {
+	font-size: 20px;
+	font-weight: 600;
+}
+.para {
+	padding: 1rem;
+}
+.history-para {
+	display: none;
+}
+.vision-para {
+	display: none;
+}
+.goal-para {
+	display: none;
+}
+.history-para.active {
+	display: block;
+}
+.vision-para.active {
+	display: block;
+}
+.goal-para.active {
+	display: block;
+}

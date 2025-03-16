@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text To Speech</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body
+        {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+           width: 400px;
+           padding: 1rem 2rem;
+           border: 2px solid black;
+        }
+        .row-1{
+            display: flex;
+        }
+        input{
+            padding: 0.5rem 1rem;
+            flex: 1;
+            margin-bottom: 1.5rem;
+        }
+        .row{
+            display: flex;
+        }
+        select{
+            flex: 1;
+            background-color: #ccc;
+            border: none;
+        }
+        button{
+            padding: 0.5rem 0.8rem;
+            background-color: lightseagreen;
+            color: #fff;
+            border: none;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+        }
+        button:hover{
+            background-color: darkcyan                   
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row-1">
+            <input type="text" placeholder="Enter Text" id="input-text">
+        </div>
+        <div class="row">
+            <select name="" id="select-options"></select>
+            <button id="speech">
+                 <i class="fa-solid fa-volume-high"></i>
+                Speak
+            </button>
+        </div>
+    </div>
+
+
+<script>
+    let inputText = document.getElementById("input-text")
+    let speechBtn = document.getElementById("speech");
+    let utter = new SpeechSynthesisUtterance();
+    let selectVoice = document.getElementById("select-options")
+    let voices = []
+    speechBtn.addEventListener("click", function(){
+        utter.text = inputText.value;
+        speechSynthesis.speak(utter);
+        inputText.value = ''
+    })
+
+
+    window.speechSynthesis.onvoiceschanged = () => {
+        voices = window.speechSynthesis.getVoices();
+        utter.voice = voices[0];
+        voices.forEach((voice, i ) => (selectVoice.options[i]= new Option(voice.name, i)));
+    }
+        
+        selectVoice.addEventListener("change", () => {
+        utter.voice = voices[selectVoice.value]
+    })
+   
+</script>
+</body>
+</html>

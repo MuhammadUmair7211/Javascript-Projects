@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+
+<body class="w-100 h-100" style="background-color: #31acd1">
+    <div class="container w-75 text-center bg-light rounded-2">
+        <h2 class="mt-5 pt-5 pb-3">To-Do List <i class="fa-solid fa-clipboard-list text-danger ms-1"></i></h2>
+        <div class="row  align-items-center mx-auto pb-3">
+            <div class="col-md-10">
+                <input type="text" placeholder="Add Your Text" class="w-100 px-3 py-1 ms-4" id="input-box">
+            </div>
+            <div class="col-md-2">
+                <button id="add-btn" class="btn btn-warning">Add</button>
+            </div>
+        </div>
+        <ul class="ms-5 list-unstyled fw-bold user-select-none text-start w-75 py-2" style="cursor: pointer;"
+            id="parent-ul">
+            <li class="mt-1">Task-1</li>
+            <li class="mt-1">Task-2</li>
+            <li class="mt-1">Task-3</li>
+        </ul>
+    </div>
+
+    <script>
+        // let parentUl = document.getElementById("parent-ul")
+        // let inputBox = document.getElementById("input-box")
+        // let addBtn = document.getElementById("add-btn");
+
+
+        // addBtn.addEventListener("click", function () {
+        //     if (inputBox.value === "") {
+        //         alert("You must write something!")
+        //     }
+        //     else {
+        //         let listItem = document.createElement("li");
+        //         listItem.innerHTML = inputBox.value;
+        //         parentUl.appendChild(listItem);
+        //     }
+        //     inputBox.value = "";
+        //     saveData()
+        // })
+        // parentUl.addEventListener("dblclick", function (e) {
+        //     if (e.target !== parentUl) {
+        //         e.target.remove();
+        //     }
+        //     saveData()
+        // })
+
+        // function saveData() {
+        //     localStorage.setItem("data", parentUl.innerHTML)
+        // }
+        // function showList() {
+        //     parentUl.innerHTML = localStorage.getItem("data");
+        // }
+        // showList()
+    </script>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

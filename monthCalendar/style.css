@@ -1,0 +1,45 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: nunito;
+}
+body {
+	min-height: 100vh;
+}
+.month-calendar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 2rem;
+}
+table {
+	max-width: 400px;
+}
+th,
+tr,
+td {
+	padding: 0.7rem;
+	text-align: center;
+	border: 1px solid #ddd;
+	transition: all 0.5s ease;
+}
+td:hover {
+	background-color: #222;
+	color: white;
+	border: 1px solid black;
+	cursor: pointer;
+}
+th {
+	background-color: #d4c6c677;
+}
+.button-container {
+	margin: 1rem 0;
+}
+button {
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	font-size: 18px;
+	cursor: pointer;
+}

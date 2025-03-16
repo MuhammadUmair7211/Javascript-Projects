@@ -1,0 +1,55 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+}
+body {
+	min-height: 100vh;
+	position: relative;
+}
+
+.container {
+	max-width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 20px;
+}
+video {
+	height: 100vh;
+	width: 100%;
+	object-fit: cover;
+	position: absolute;
+}
+.button {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	background-color: #ccc;
+	justify-content: space-between;
+	border-radius: 10px;
+	z-index: 1;
+}
+button {
+	padding: 1rem 1.5rem;
+	cursor: pointer;
+	border: none;
+	font-size: 18px;
+	background-color: transparent;
+	border-radius: 10px;
+}
+.play-button.default {
+	background-color: green;
+	border-radius: 10px;
+	color: green;
+}
+.pause-button.active {
+	background-color: green;
+	border-radius: 10px;
+	color: green;
+}
+.play-button.active {
+	background-color: green;
+	border-radius: 10px;
+	color: green;
+}

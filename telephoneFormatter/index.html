@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telephone Number Formatter</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            font-family: monospace;
+            background-color: #6ab04c;
+            display: flex;
+        }
+
+        .container {
+            text-align: center;
+            width: 500px;
+            margin: 5rem auto;
+            border: 1px solid black;
+            padding: 1rem 1.4rem;
+        }
+
+        .container input {
+            width: 100%;
+            margin-top: 2rem;
+            padding: 0.5rem 1rem;
+            border: none;
+            outline: none;
+            font-size: 1.5rem;
+        }
+
+        .container p {
+            margin-top: 1rem;
+            font-size: 1.4rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Telephone Number Formatter</h2>
+        <input type="text" id="input" placeholder="Enter Phone Number" maxlength="16">
+        <p>+(123)-4567890</p>
+    </div>
+
+    <script>
+        let previousValue = '';
+        let input = document.getElementById("input")
+        input.addEventListener("input", (e) => {
+            let inputValue = e.target.value;
+            if (inputValue.length === 4 && inputValue.length > previousValue.length) {
+                input.value = `+(${inputValue.substring(0, 3)}) - `;
+                console.log(input.value)
+            }
+            else if (inputValue.length === 9 && inputValue.length < previousValue.length) {
+                input.value = inputValue.substring(0, 3)
+            }
+            previousValue = inputValue
+        })
+    </script>
+</body>
+
+</html>

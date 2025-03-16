@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Taking App</title>
+    <style>
+        * {
+            margin: 0px;
+            font-family: cursive;
+        }
+
+        body {
+            min-height: 100vh;
+            background-color: #575757;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 1300px;
+            height: 100%;
+            padding: 1rem;
+        }
+
+        #add-btn {
+            padding: 0.5rem 2rem;
+            background-color: #990302;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .notes-app {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            margin: 0 auto;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .notes {
+            border: 1px solid black;
+            padding: 0.5rem;
+            width: 300px;
+            height: 200px;
+            outline: none;
+            resize: none;
+            font-size: 16px;
+            margin-top: 10px;
+            border-radius: 10px;
+            background-color: #ddd;
+            cursor: pointer;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <button id="add-btn">Click to Add</button>
+        <div class="notes-app">
+            <textarea class="notes"></textarea>
+        </div>
+    </div>
+
+    <script>
+        let addBtn = document.getElementById('add-btn')
+        let notesApp = document.querySelector('.notes-app')
+        addBtn.addEventListener('click', () => {
+            let textArea = document.createElement('textarea');
+            textArea.classList.add('notes');
+            notesApp.appendChild(textArea);
+        });
+
+        notesApp.addEventListener('dblclick', (e) => {
+            if (e.target !== notesApp) {
+                e.target.remove();
+            }
+        });
+    </script>
+</body>
+
+</html>

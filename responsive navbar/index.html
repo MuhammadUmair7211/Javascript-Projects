@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            height: 100vh;
+        }
+
+        nav {
+            width: 100%;
+            background-color: white;
+            box-shadow: 0px 0px 5px 0px;
+        }
+
+        nav ul {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            list-style-type: none;
+        }
+
+        nav li {
+            padding: 0 30px;
+            height: 50px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        nav li:first-child {
+            margin-right: auto;
+        }
+
+        nav li:hover {
+            background-color: #f0f0f0;
+        }
+
+        nav a {
+            height: 100%;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0px;
+            right: 0px;
+            width: 250px;
+            display: none;
+            z-index: 999;
+            flex-direction: column;
+            background-color: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            align-items: flex-start;
+            justify-content: flex-start;
+            height: 100vh;
+        }
+
+        #bars {
+            display: none;
+        }
+
+        .sidebar li {
+            width: 100%;
+        }
+
+        @media (max-width:800px) {
+            .hide {
+                display: none;
+            }
+
+            #bars {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hideSideBar()" id="cross">
+                <a href="#">
+                    <i class="fa-solid fa-xmark"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Main
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    About
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Form
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Login
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="#">
+                    logo
+                </a>
+            </li>
+            <li class="hide">
+                <a href="#">
+                    Main
+                </a>
+            </li>
+            <li class="hide">
+                <a href="#">
+                    About
+                </a>
+            </li>
+            <li class="hide">
+                <a href="#">
+                    Form
+                </a>
+            </li>
+            <li class="hide">
+                <a href="#">
+                    Login
+                </a>
+            </li>
+            <li onclick="showSideBar()" id="bars">
+                <a href="#">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <script>
+        let sideBar = document.querySelector(".sidebar")
+        function showSideBar() {
+            sideBar.style.display = 'block'
+        }
+
+        function hideSideBar() {
+            sideBar.style.display = 'none'
+        }
+    </script>
+</body>
+
+</html>
