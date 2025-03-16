@@ -1,0 +1,33 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: goldenrod;
+}
+.container {
+	border: 1px solid #ccc;
+	display: flex;
+	align-items: center;
+	background-color: #ccc;
+}
+input {
+	width: 400px;
+	padding: 10px;
+	outline: none;
+	background-color: #ccc;
+	border: none;
+	display: none;
+}
+input.active {
+	display: block;
+}
+i {
+	cursor: pointer;
+	font-size: 24px;
+	padding: 10px;
+}

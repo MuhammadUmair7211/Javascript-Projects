@@ -1,0 +1,43 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 50px;
+	gap: 50px;
+	font-family: "Great Vibes";
+}
+.remaining-time {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+h1 {
+	color: rgb(180, 138, 31);
+	font-size: 54px;
+}
+.time {
+	width: 150px;
+	height: 150px;
+	background-color: #102a42;
+	color: white;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+	font-size: 24px;
+	font-weight: 700;
+}
+span {
+	font-family: monospace;
+	font-size: 30px;
+}

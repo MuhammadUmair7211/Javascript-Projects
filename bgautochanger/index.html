@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Background Changer</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+        }
+
+        .container {
+            margin: 0 auto;
+        }
+
+        button {
+            padding: 0.65rem 1rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <button id="play-button">Play</button>
+        <button id="pause-button">Pause</button>
+    </div>
+
+
+
+    <script>
+        let playButton = document.getElementById("play-button")
+        let pauseButton = document.getElementById("pause-button")
+        function randomColor() {
+            let color = "#";
+            const hex = "0123456789ABCDEF";
+            for (let i = 0; i < 6; i++) {
+                color += hex[Math.floor(Math.random() * 16)]
+            }
+            return color
+        }
+
+        let intervalId;
+        function startChangingColor() {
+            if (intervalId == null) {
+                intervalId = setInterval(() => {
+                    document.body.style.backgroundColor = randomColor()
+                }, 1000)
+            }
+        }
+
+        function stopChangingColor() {
+            clearInterval(intervalId);
+            intervalId = null
+        }
+        playButton.addEventListener("click", startChangingColor);
+        pauseButton.addEventListener("click", stopChangingColor)
+    </script>
+</body>
+
+</html>

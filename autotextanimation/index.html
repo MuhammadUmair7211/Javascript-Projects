@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Text Animation</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        body {
+            width: 100%;
+            height: 80vh;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        span {
+            color: lightseagreen;
+            display: inline-block;
+            align-items: center;
+        }
+
+        span::after {
+            content: "";
+            width: 3px;
+            height: 50px;
+            background-color: lightseagreen;
+            display: inline-block;
+            margin-left: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>I am <span id="names"></span></h1>
+    </div>
+
+
+    <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> -->
+    <script>
+
+        // var typed = new Typed(".display" ,{
+        //     strings : ["Student", "Web Developer", "Instructor", "Enterpreneur" ],
+        //     typeSpeed: 150,
+        //     backSpeed: 150, 
+        //     loop: true
+        // })
+
+        let charIndex = 0;
+        let wordIndex = 0
+        let wordList = ["Student", "Developer", "Instructor", "Enterpreneur"];
+        let display = document.getElementById("names")
+        setInterval(function () {
+            if (charIndex < wordList[wordIndex].length) {
+                display.innerHTML += wordList[wordIndex][charIndex];
+                charIndex++
+            }
+            else {
+                display.innerHTML = display.innerHTML.slice(0, display.innerHTML.length - 1);
+            }
+            if (display.innerHTML.length == 0) {
+                charIndex = 0
+                wordIndex++
+            } if (wordIndex === wordList.length) {
+                wordIndex = 0
+            }
+        }, 500)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        button {
+            padding: 1rem 2rem;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            margin-left: 1rem;
+            cursor: pointer;
+        }
+
+        h2 {
+            padding: 2rem;
+            font-size: 2rem;
+        }
+
+        #green {
+            background-color: green;
+        }
+
+        #red {
+            background-color: red;
+        }
+
+        .input {
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .input input {
+            padding: 1rem 2rem;
+            background-color: #efefef;
+            border: none;
+            outline: none;
+        }
+
+        .input label {
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Value is : <span id="display">0</span> </h2>
+        <button id="green" onclick="valueIncrement()">Value +</button>
+        <button style="color: black;" onclick="reset()">Reset</button>
+        <button id="red" onclick="valueDecrement()">Value -</button>
+        <div class="input">
+            <label for="input-field">Increment/Decrement By:</label>
+            <input type="number" placeholder="Enter a value" value="1" id="input-field">
+        </div>
+    </div>
+
+
+    <script>
+
+        let inputField = document.getElementById("input-field");
+        let display = document.getElementById("display");
+        let counter = parseInt(display.innerHTML);
+
+
+
+        function valueIncrement() {
+            counter = counter + parseInt(inputField.value);
+            display.innerHTML = counter
+        }
+        function valueDecrement() {
+            counter = counter - parseInt(inputField.value);
+            display.innerHTML = counter
+        }
+        function reset() {
+            counter = 0;
+            display.innerHTML = counter
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
