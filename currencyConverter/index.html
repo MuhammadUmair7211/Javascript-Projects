@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+            <p>Enter Amount</p>
+            <input type="number">
+            <div class="drop-list">
+              <div class="from">
+                <p>From</p>
+                <div class="image">
+                  <img src="https://flagsapi.com/US/shiny/64.png">
+                 <select name="" class="select-country">
+                    <option value="">USD</option>
+                    <option value="">PKR</option>
+                    <option value="">INR</option>
+                    <option value="">JPY</option>
+                 </select>
+                </div>
+              </div>
+              <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+              <div class="to">
+                <p>To</p>
+                <div class="image">
+                     <img src="https://flagsapi.com/PK/shiny/64.png">
+                <select name="" class="select-country">
+                    <option value="">PKR</option>
+                    <option value="">USD</option>
+                    <option value="">INR</option>
+                    <option value="">JPY</option>
+                </select>
+                </div>
+                
+            </div>
+         </div>
+         <div class="display">
+            <h3><span id="usd"></span> USD = <span id="pkr"></span> PKR</h3>
+         </div>
+         <button>Get Exchange Rate</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
