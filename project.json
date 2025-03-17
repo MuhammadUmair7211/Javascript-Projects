@@ -9,7 +9,7 @@
   {
     "no": 2,
     "name": "AnimatedSearch",
-    "description": "Fully Customised Search bar with smooth transition",
+    "description": "Fully customised search bar with search icon which is displayed when mouse hovers over it with smooth transition",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/animatedSearch"
   },
