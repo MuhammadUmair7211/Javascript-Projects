@@ -36,10 +36,10 @@
   },
   {
     "no": 6,
-    "name": "BgChanger",
-    "description": "Background changer is yet another project for changing background by clicking a button",
+    "name": "BmiCalculator",
+    "description": "A simple Bmi Calculator which calculates bmi and display the health of the body as a result ",
     "tech_stack": ["HTML","CSS","Javascript"],
-    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/bgchanger"
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/bmicalculator"
   },
   {
     "no": 7,
