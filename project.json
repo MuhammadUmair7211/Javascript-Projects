@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "name": "GuessNumber",
+      "description": "The game is developed in javascript, which prompts the user to guess the number, the game also displays hints of whether the guess number is greater or small",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "repository": "https://github.com/MuhammadUmair7211/Javascript-Projects",
+      "liveDemo": "https://example.com/guessnumber-demo"
+    },
+    {
+      "name": "AnotherProject",
+      "description": "Description of another project.",
+      "technologies": ["Python", "Flask"],
+      "repository": "https://github.com/MuhammadUmair7211/Javascript-Projects",
+      "liveDemo": "https://example.com/anotherproject-demo"
+    }
+    // Add more projects here
+  ]
+}
