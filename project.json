@@ -47,5 +47,26 @@
     "description": "A simple Calculator which calculates various values and display the desired result of the operation on screen",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/calculator"
+  },
+  {
+    "no": 8,
+    "name": "Clock",
+    "description": "A digital clock developed in Javascript that displays hours, minutes, and seconds",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/clock"
+  },
+  {
+    "no":9,
+    "name": "ColorFlipper",
+    "description": "Color flipper is a javascript project that changes the background color of the body by button",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/colorFlipper"
+  },
+  {
+    "no":10,
+    "name": "CountdownTimer",
+    "description": "Countdown timer displays the remaining time for a specific event that will happen in future",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/countdownTimer"
   }
 ]
