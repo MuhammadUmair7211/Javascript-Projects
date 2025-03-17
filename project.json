@@ -68,5 +68,19 @@
     "description": "Countdown timer displays the remaining time for a specific event that will happen in future",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/countdownTimer"
+  },
+  {
+    "no":11,
+    "name": "BasicCounter",
+    "description": "Counter app increases and decrease the value of count by any value depending on the user input",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/counterapp"
+  },
+  {
+    "no":12,
+    "name": "DependentSelect",
+    "description": "Dependent select menu project updates the second menu by the selection of option from first menu",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/dependentSelect"
   }
 ]
