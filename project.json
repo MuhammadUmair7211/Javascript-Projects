@@ -9,24 +9,24 @@
     "name": "AnimatedSeach",
     "description": "Fully Customised Search bar with smooth transition",
     "tech_stack": ["Html","Css","Javascript"],
-    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/animatedSearch",
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/animatedSearch"
   },
   {
     "name": "AutoTextAnimation",
     "description": "This is an Auto Text Animation project which containes an array of words that changes after equal interval of time using setInterval Method in Javascript",
     "tech_stack": ["Html","Css","Javascript"],
-    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/autotextanimation",
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/autotextanimation"
   },
   {
     "name": "BgAutoChanger",
     "description": "The background auto changer changes the background and sets new background automatically after an interval",
     "tech_stack": ["Html","Css","Javascript"],
-    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/bgautochanger",
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/bgautochanger"
   },
   {
     "name": "BgChanger",
     "description": "Background changer is yet another project for changing background ma clicking a button",
     "tech_stack": ["Html","Css","Javascript"],
-    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/bgchanger",
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/bgchanger"
   }
 ]
