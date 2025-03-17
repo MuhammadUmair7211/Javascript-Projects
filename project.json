@@ -99,9 +99,114 @@
   },
   {
     "no":15,
-    "name": "Modal",
-    "description": "Custom modal that pops up by clicking button and hides when close button is clicked",
+    "name": "WordLengthCal",
+    "description": "Word length calculator is used to calculate the length of an input text or string",
     "tech_stack": ["HTML","CSS","Javascript"],
-    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/modal"
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/wordLengthCalc"
+  },
+{
+    "no": 16,
+    "name": "NotesApp",
+    "description": "The notes taking app is designed to keeps notes for the ease of the user",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/notesapp"
+  },
+  {
+    "no": 17,
+    "name": "WeatherApp",
+    "description": "Weather app uses weather api to fetch and display the result on the screen of a specific area",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/Weatherapp"
+  },
+  {
+    "no": 18,
+    "name": "PasswordGenerator",
+    "description": "This app generates random passwords for the user and has the copy functionality",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/passwordgenerator"
+  },
+  {
+    "no": 19,
+    "name": "QrGenerator",
+    "description": "This app generates and display QR codes on demand using an Api",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/qrcodegenerator"
+  },
+  {
+    "no": 20,
+    "name": "RestCountries",
+    "description": "Rest countries app display different countries and its details with border countries and currencies",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/restApiCountries"
+  },
+  {
+    "no": 21,
+    "name": "StepProgressBar",
+    "description": "Step progress bar displays process in different steps",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/step_progress"
+  },
+  {
+    "no": 22,
+    "name": "Stopwatch",
+    "description": "A simple stopwatch with start, stop and reset functionality",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/stopwatch"
+  },
+  {
+    "no": 23,
+    "name": "StringTransformer",
+    "description": "String transformer is an app that modifies the string into various formats",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/stringTransformer"
+  },
+  {
+    "no": 24,
+    "name": "TeleFormatter",
+    "description": "Telephone number formatter, formates the given number into telephone number format",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/telephoneFormatter"
+  },
+  {
+    "no": 25,
+    "name": "TextResizer",
+    "description": "Text resizer work by resizing the text by selecting the desired range",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/textResize"
+  },
+  {
+    "no": 26,
+    "name": "TextSpeech",
+    "description": "Text to speech converter is used to convert speech into text, which includes different types of voices",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/texttospeech"
+  },
+  {
+    "no": 27,
+    "name": "ToastNotification",
+    "description": "Display notifications on the right bottom of the page and disappears after few seconds",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/toastNotification"
+  },
+  {
+    "no": 28,
+    "name": "TodoApp",
+    "description": "Todo App takes, edit and delete the todos, and saves the data in the local storage of the browser",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/todoapp"
+  },
+  {
+    "no": 29,
+    "name": "VideoPlayer",
+    "description": "Video player with custom start and stop functionality",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/video"
+  },
+  {
+    "no": 30,
+    "name": "WikiPedia",
+    "description": "Wikipedia app that uses wikipedia api to display the result of a specific search input",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/wikiPedia"
   }
 ]
