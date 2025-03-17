@@ -17,8 +17,7 @@
     "name": "AutoTextAnimation",
     "description": "This is an Auto Text Animation project which contains an array of words that changes after equal interval of time using setInterval Method in Javascript",
     "tech_stack": ["Html","Css","Javascript"],
-    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/autotextanimation"
-  },
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/autotextanimation"},
   {
     "no": "04",
     "name": "BgAutoChanger",
