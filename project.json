@@ -6,14 +6,14 @@
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/GuessNumber"
   },
   {
-    "name": "AnimatedSeach",
+    "name": "AnimatedSearch",
     "description": "Fully Customised Search bar with smooth transition",
     "tech_stack": ["Html","Css","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/animatedSearch"
   },
   {
     "name": "AutoTextAnimation",
-    "description": "This is an Auto Text Animation project which containes an array of words that changes after equal interval of time using setInterval Method in Javascript",
+    "description": "This is an Auto Text Animation project which contains an array of words that changes after equal interval of time using setInterval Method in Javascript",
     "tech_stack": ["Html","Css","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/autotextanimation"
   },
@@ -25,7 +25,7 @@
   },
   {
     "name": "BgChanger",
-    "description": "Background changer is yet another project for changing background ma clicking a button",
+    "description": "Background changer is yet another project for changing background by clicking a button",
     "tech_stack": ["Html","Css","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/bgchanger"
   }
