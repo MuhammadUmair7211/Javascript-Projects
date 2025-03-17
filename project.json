@@ -2,7 +2,7 @@
 {
     "name": "Guess Number",
     "description": "The guess number game in javascript is a short project that prompts the user to think of a number and display hints whether the number is small or greater",
-    "tech_stack": Html", "Javascript"],
+    "tech_stack": ["Html","Css","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/GuessNumber",
   },
   {
