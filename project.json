@@ -40,5 +40,12 @@
     "description": "A simple Bmi Calculator which calculates bmi and display the health of the body as a result",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/bmicalculator"
+  },
+  {
+    "no": 7,
+    "name": "Calculator",
+    "description": "A simple Calculator which calculates various values and display the desired result of the operation on screen",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/calculator"
   }
 ]
