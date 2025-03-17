@@ -1,0 +1,39 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	min-height: 100vh;
+	background-color: rgb(155, 170, 66);
+}
+form {
+	margin: 0 auto;
+	padding: 1rem 2rem;
+	max-width: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+}
+input {
+	margin-top: 5rem;
+	width: 100%;
+	padding: 0.5rem 0.7rem;
+	outline: none;
+}
+p {
+	margin-top: 2rem;
+}
+.button {
+	margin-top: 2rem;
+}
+button {
+	padding: 0.6rem 1.5rem;
+	cursor: pointer;
+}
+p {
+	font-size: 24px;
+}
+span {
+	color: red;
+}

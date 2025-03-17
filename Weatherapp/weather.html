@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            width: 100%;
+            height: 100vh;
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            border: 2px solid slategrey;
+            padding: 1rem 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .weather{
+            margin-top: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+
+        }
+        .weather-2{
+            margin-top: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+        span{
+            color: lightseagreen;
+        }
+        .city-name{
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+        <div class="search">
+            <input type="text" placeholder="Search Your City" id="input-city">
+            <button onclick="showWeather()">Search</button>
+        </div>
+        <div class="weather">
+            <div class="temperature" style="text-align: center;">
+                <p>Temperature</p>
+                <span id="temp"></span>
+            </div>
+            <div class="condition" style="text-align: center;">
+                <p>Condition</p>
+                <span id="condition"></span>
+            </div>
+            <div class="windspeed" style="text-align: center;">
+                <p>Wind-Speed</p>
+                <span id="wind-speed"></span>
+            </div>
+         </div>
+        <div class="weather-2" style="text-align: center;">
+            <div class="visibility">
+                <p>Visibility</p>
+                <span id="visibility"></span>
+            </div>
+            <div class="humidity" style="text-align: center;">
+                <p>Humidity</p>
+                <span id="humdidty"></span>
+            </div>
+            <div class="pressure" style="text-align: center;">
+                <p>Pressure</p>
+                <span id="pressure"></span>
+            </div>
+            <div class="direction" style="text-align: center;">
+                <p>Direction</p>
+                <span id="direction"></span>
+            </div>
+        </div> 
+            <div class="city-name" style="text-align: center;">
+                <p>City</p>
+                <span id="city"  style="font-size: 2rem;"></span>
+             </div>
+    </div>
+
+
+    <script>
+         let inputCity = document.getElementById("input-city")
+
+        async function weather(location) {
+        
+            let city = document.getElementById("city")
+            let temp = document.getElementById("temp")
+            let condition = document.getElementById("condition")
+            let windSpeed = document.getElementById("wind-speed")
+            let visibility = document.getElementById("visibility")
+            let humdidty = document.getElementById("humdidty")
+            let pressure = document.getElementById("pressure");
+            let direction = document.getElementById("direction")
+
+            let response = await fetch(`https://api.weatherapi.com/v1/current.json?key=470e59384a8a413097f161839241311&q= + ${location} &aqi=no`);
+            let data = await response.json();
+            city.innerHTML = data.location.name;
+            temp.innerHTML = data.current.feelslike_c + "°C";
+            condition.innerHTML = data.current.condition.text;
+            windSpeed.innerHTML = data.current.wind_kph + " " + "Kph"
+            visibility.innerHTML = data.current.vis_km + " " + "Km";
+            humdidty.innerHTML = data.current.humidity;
+            pressure.innerHTML = data.current.pressure_mb + " " + "Kpa";
+            direction.innerHTML = data.current.wind_dir;
+            console.log(data);
+        }
+
+
+        function showWeather(){
+            weather(inputCity.value);
+            inputCity.value =''
+        }
+    </script>
+</body>
+</html>
