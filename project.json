@@ -2,7 +2,7 @@
 {
     "no": 1,
     "name": "GuessNumber",
-    "description": "The guess number in javascript is a short project that prompts the user to think of a number and display hints whether the number is small or greater",
+    "description": "The guess number is a short project that prompts the user to think of a number and display hints whether the number is small or greater",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/GuessNumber"
   },
