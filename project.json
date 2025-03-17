@@ -82,5 +82,26 @@
     "description": "Dependent select menu project updates the second menu by the selection of option from first menu",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/dependentSelect"
+  },
+  {
+    "no":13,
+    "name": "FormValidation",
+    "description": "Form validation with name, email, and contact with regular expression",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/form_validation"
+  },
+  {
+    "no":14,
+    "name": "ImageSlider",
+    "description": "Javascript image slider with two buttons to move forwards and backwards",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/imageSlider"
+  },
+  {
+    "no":15,
+    "name": "Modal",
+    "description": "Custom modal that pops up by clicking button and hides when close button is clicked",
+    "tech_stack": ["HTML","CSS","Javascript"],
+    "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/modal"
   }
 ]
