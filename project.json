@@ -2,210 +2,210 @@
 {
     "no": 1,
     "name": "GuessNumber",
-    "description": "The guess number is a short project that prompts the user to think of a number and display hints whether the number is small or greater",
+    "description": "The guess number is a short project that prompts the user to think of a number and display hints whether the number is small or greater.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/GuessNumber"
   },
   {
     "no": 2,
     "name": "AnimatedSearch",
-    "description": "Fully customised search bar with search icon which is displayed when mouse hovers over it with smooth transition",
+    "description": "Fully customised search bar with search icon which is displayed when mouse hovers over it with smooth transition.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/animatedSearch"
   },
   {
     "no": 3,
     "name": "AutoTextAnimation",
-    "description": "This is an Auto Text Animation project which contains an array of words that changes after equal interval of time using setInterval Method in Javascript",
+    "description": "This is an Auto Text Animation project which contains an array of words that changes after equal interval of time using setInterval Method in Javascript.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/autotextanimation"
   },
   {
     "no": 4,
     "name": "BgAutoChanger",
-    "description": "The background auto changer changes the background and sets new background automatically after an interval",
+    "description": "The background auto changer changes the background and sets new background automatically after an interval.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/bgautochanger"
   },
   {
     "no": 5,
     "name": "BgChanger",
-    "description": "Background changer is yet another project for changing background by clicking a button",
+    "description": "Background changer is yet another project for changing background by clicking a button.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/bgchanger"
   },
   {
     "no": 6,
     "name": "BmiCalculator",
-    "description": "A simple Bmi Calculator which calculates bmi and display the health of the body as a result",
+    "description": "A simple Bmi Calculator which calculates bmi and display the health of the body as a result.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/bmicalculator"
   },
   {
     "no": 7,
     "name": "Calculator",
-    "description": "A simple Calculator which calculates various values and display the desired result of the operation on screen",
+    "description": "A simple Calculator which calculates various values and display the desired result of the operation on screen.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/calculator"
   },
   {
     "no": 8,
     "name": "Clock",
-    "description": "A digital clock developed in Javascript that displays hours, minutes, and seconds",
+    "description": "A digital clock developed in Javascript that displays hours, minutes, and seconds.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/clock"
   },
   {
     "no":9,
     "name": "ColorFlipper",
-    "description": "Color flipper is a javascript project that changes the background color of the body by button",
+    "description": "Color flipper is a javascript project that changes the background color of the body by button.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/colorFlipper"
   },
   {
     "no":10,
     "name": "CountdownTimer",
-    "description": "Countdown timer displays the remaining time for a specific event that will happen in future",
+    "description": "Countdown timer displays the remaining time for a specific event that will happen in future.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/countdownTimer"
   },
   {
     "no":11,
     "name": "BasicCounter",
-    "description": "Counter app increases and decrease the value of count by any value depending on the user input",
+    "description": "Counter app increases and decrease the value of count by any value depending on the user input.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/counterapp"
   },
   {
     "no":12,
     "name": "DependentSelect",
-    "description": "Dependent select menu project updates the second menu by the selection of option from first menu",
+    "description": "Dependent select menu project updates the second menu by the selection of option from first menu.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/dependentSelect"
   },
   {
     "no":13,
     "name": "FormValidation",
-    "description": "Form validation with name, email, and contact with regular expression",
+    "description": "Form validation with name, email, and contact with regular expression.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/form_validation"
   },
   {
     "no":14,
     "name": "ImageSlider",
-    "description": "Javascript image slider with two buttons to move forwards and backwards",
+    "description": "Javascript image slider with two buttons to move forwards and backwards.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/imageSlider"
   },
   {
     "no":15,
     "name": "WordLengthCal",
-    "description": "Word length calculator is used to calculate the length of an input text or string",
+    "description": "Word length calculator is used to calculate the length of an input text or string.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/wordLengthCalc"
   },
 {
     "no": 16,
     "name": "NotesApp",
-    "description": "The notes taking app is designed to keeps notes for the ease of the user",
+    "description": "The notes taking app is designed to keeps notes for the ease of the user.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/notesapp"
   },
   {
     "no": 17,
     "name": "WeatherApp",
-    "description": "Weather app uses weather api to fetch and display the result on the screen of a specific area",
+    "description": "Weather app uses weather api to fetch and display the result on the screen of a specific area.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/Weatherapp"
   },
   {
     "no": 18,
     "name": "PasswordGenerator",
-    "description": "This app generates random passwords for the user and has the copy functionality",
+    "description": "This app generates random passwords for the user and has the copy functionality.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/passwordgenerator"
   },
   {
     "no": 19,
     "name": "QrGenerator",
-    "description": "This app generates and display QR codes on demand using an Api",
+    "description": "This app generates and display QR codes on demand using an Api.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/qrcodegenerator"
   },
   {
     "no": 20,
     "name": "RestCountries",
-    "description": "Rest countries app display different countries and its details with border countries and currencies",
+    "description": "Rest countries app display different countries and its details with border countries and currencies.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/restApiCountries"
   },
   {
     "no": 21,
     "name": "StepProgressBar",
-    "description": "Step progress bar displays process in different steps",
+    "description": "Step progress bar displays process in different steps.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/step_progress"
   },
   {
     "no": 22,
     "name": "Stopwatch",
-    "description": "A simple stopwatch with start, stop and reset functionality",
+    "description": "A simple stopwatch with start, stop and reset functionality.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/stopwatch"
   },
   {
     "no": 23,
     "name": "StringTransformer",
-    "description": "String transformer is an app that modifies the string into various formats",
+    "description": "String transformer is an app that modifies the string into various formats.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/stringTransformer"
   },
   {
     "no": 24,
     "name": "TeleFormatter",
-    "description": "Telephone number formatter, formates the given number into telephone number format",
+    "description": "Telephone number formatter, formates the given number into telephone number format.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/telephoneFormatter"
   },
   {
     "no": 25,
     "name": "TextResizer",
-    "description": "Text resizer work by resizing the text by selecting the desired range",
+    "description": "Text resizer work by resizing the text by selecting the desired range.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/textResize"
   },
   {
     "no": 26,
     "name": "TextSpeech",
-    "description": "Text to speech converter is used to convert speech into text, which includes different types of voices",
+    "description": "Text to speech converter is used to convert speech into text, which includes different types of voices.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/texttospeech"
   },
   {
     "no": 27,
     "name": "ToastNotification",
-    "description": "Display notifications on the right bottom of the page and disappears after few seconds",
+    "description": "Display notifications on the right bottom of the page and disappears after few seconds.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/toastNotification"
   },
   {
     "no": 28,
     "name": "TodoApp",
-    "description": "Todo App takes, edit and delete the todos, and saves the data in the local storage of the browser",
+    "description": "Todo App takes, edit and delete the todos, and saves the data in the local storage of the browser.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/todoapp"
   },
   {
     "no": 29,
     "name": "VideoPlayer",
-    "description": "Video player with custom start and stop functionality",
+    "description": "Video player with smooth transition and custom start and stop functionality.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/video"
   },
   {
     "no": 30,
     "name": "WikiPedia",
-    "description": "Wikipedia app that uses wikipedia api to display the result of a specific search input",
+    "description": "Wikipedia app that uses wikipedia api to display the result of a specific search input.",
     "tech_stack": ["HTML","CSS","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/wikiPedia"
   }
