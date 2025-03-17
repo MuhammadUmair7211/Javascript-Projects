@@ -1,33 +1,33 @@
 [
 {
-    "project": 01,
+    "project": "01",
     "name": "GuessNumber",
     "description": "The guess number game in javascript is a short project that prompts the user to think of a number and display hints whether the number is small or greater",
     "tech_stack": ["Html","Css","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/GuessNumber"
   },
   {
-    "project": 02,
+    "project": "02",
     "name": "AnimatedSearch",
     "description": "Fully Customised Search bar with smooth transition",
     "tech_stack": ["Html","Css","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/animatedSearch"},
   {
-    "project": 03,
+    "project": "03",
     "name": "AutoTextAnimation",
     "description": "This is an Auto Text Animation project which contains an array of words that changes after equal interval of time using setInterval Method in Javascript",
     "tech_stack": ["Html","Css","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/autotextanimation"
   },
   {
-    "project": 04,
+    "project": "04",
     "name": "BgAutoChanger",
     "description": "The background auto changer changes the background and sets new background automatically after an interval",
     "tech_stack": ["Html","Css","Javascript"],
     "repo_link": "https://github.com/MuhammadUmair7211/Javascript-Projects/tree/main/bgautochanger"
   },
   {
-    "project": 05,
+    "project": "05",
     "name": "BgChanger",
     "description": "Background changer is yet another project for changing background by clicking a button",
     "tech_stack": ["Html","Css","Javascript"],
