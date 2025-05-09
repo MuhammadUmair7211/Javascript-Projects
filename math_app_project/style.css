@@ -1,0 +1,53 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+	min-height: 100vh;
+	background-color: #f1f1f1;
+}
+.container {
+	max-width: 500px;
+	box-shadow: 0 0 8px 0;
+	padding: 20px;
+	background-color: yellowgreen;
+	text-align: center;
+}
+.numbers {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+h1 {
+	border: 1px solid black;
+	padding: 10px 20px;
+}
+.input-number {
+	width: 40px;
+	height: 40px;
+	outline: none;
+	padding: 20px;
+	font-size: 28px;
+	font-weight: 700;
+}
+input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+.check-button {
+	margin-top: 20px;
+	padding: 10px 30px;
+	background-color: blueviolet;
+	font-size: 24px;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+p {
+	margin-top: 20px;
+	font-size: 24px;
+}
+p span {
+	color: green;
+}
