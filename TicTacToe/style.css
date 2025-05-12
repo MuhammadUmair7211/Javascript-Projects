@@ -1,0 +1,53 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+	min-height: 100vh;
+}
+.container {
+	box-shadow: 0px 0px 5px 0px;
+	max-width: 400px;
+	padding: 20px;
+	text-align: center;
+}
+.game-box-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+.wins-situation {
+	margin-top: 20px;
+}
+
+.box {
+	max-width: 100px;
+	width: 100%;
+	min-height: 100px;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	justify-content: center;
+	font-size: 28px;
+}
+.box:hover {
+	background-color: #f2f2f2;
+}
+.reset-button {
+	margin-top: 20px;
+	padding: 8px 20px;
+	font-size: 18px;
+	cursor: pointer;
+	background-color: red;
+	color: white;
+	border: none;
+	transition: all 0.3s ease-in-out;
+}
+.reset-button:hover {
+	background-color: rgb(218, 11, 11);
+}
