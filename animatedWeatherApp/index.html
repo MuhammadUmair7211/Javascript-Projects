@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Animated Weather App</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="navbar">
+			<a href="/">SkyCast - Your Daily Weather Companion</a>
+		</div>
+		<main class="weather-card">
+			<div class="card">
+				<form class="search-container">
+					<input
+						type="search"
+						class="input-field"
+						placeholder="search for a location"
+					/>
+					<button type="submit" class="search-button">Search</button>
+				</form>
+				<h1 class="country-name"></h1>
+				<h2 class="city-name"></h2>
+				<p class="date"></p>
+				<div class="weather-info">
+					<img class="weather-icon" src="" alt="Weather Icon" />
+					<p><span class="temperature"></span></p>
+					<p class="description"></p>
+					<p>Humidity: <span class="humidity"></span></p>
+					<p>Wind: <span class="wind"></span></p>
+				</div>
+			</div>
+		</main>
+
+		<script src="script.js"></script>
+	</body>
+</html>
